@@ -1,8 +1,9 @@
 name: Workflow A
 
-push:
-  branches:
-    - release*
+on:
+  push:
+    branches:
+      - release
 
 jobs:
   print-hello-world:
